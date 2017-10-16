@@ -19,7 +19,9 @@
       "php": "^5.5.9 || ^7.0",
       "akrabat/rka-ip-address-middleware": "^0.5"
   },
-  "psr-4": {
-    "Enovision\\Slim\\": "src/"
+  "autoload": {
+    "psr-4": {
+      "Enovision\\Slim\\": "src/"
+    }
   }
 }
