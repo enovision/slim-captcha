@@ -15,6 +15,9 @@
       "homepage": "http://www.enovision.net/"
     }
   ],
+  "require": {
+      "php": "^5.5.9 || ^7.0"
+  },
   "require-dev": {
     "akrabat/rka-ip-address-middleware": "^0.5"
   },
