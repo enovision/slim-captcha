@@ -1,0 +1,24 @@
+{
+  "name": "enovision/slim-captcha",
+  "type": "library",
+  "description": "Slim Captcha adapted from CodeIgniter's captcha helper",
+  "keywords": [
+    "captcha", "slim"
+  ],
+  "homepage": "https://github.com/enovision/slim-captcha",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Johan van de Merwe",
+      "role": "Developer",
+      "email": "j.vd.merwe@enovision.net",
+      "homepage": "http://www.enovision.net/"
+    }
+  ],
+  "require-dev": {
+    "akrabat/rka-ip-address-middleware": "^0.5"
+  },
+  "psr-4": {
+    "Enovision\\Slim\\": "src/"
+  }
+}
