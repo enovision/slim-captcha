@@ -183,7 +183,7 @@ class Captcha
 
     public function __invoke($return = false)
     {
-        $this->refreshCaptcha($return);
+        return $this->refreshCaptcha($return);
     }
 
     public function __get($property)
@@ -202,7 +202,7 @@ class Captcha
         }
 
         // Return the Captcha Settings
-        if ($return) return $captcha;
+        if (!$return) return $captcha;
 
         echo $captcha['image'];
 
