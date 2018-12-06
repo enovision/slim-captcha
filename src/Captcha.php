@@ -164,7 +164,9 @@ class Captcha
                 return 0;
             }
         ];
-
+        # Merge settings from constructor
+        $this->defaults = array_merge($this->defaults, $defaults);
+        
         $this->container = $container;
         $this->request = $request;
         $this->response = $response;
